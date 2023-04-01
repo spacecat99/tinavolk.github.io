@@ -1,0 +1,176 @@
+
+body{
+  background-color: rgba(35, 35, 35, 1);
+  color:white;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.container{
+  position: relative;
+  clear: both;
+}
+
+  #top{
+    margin: 50px;
+    width: 80%;
+    height: auto;
+    clear: both;
+    position: relative;
+  }
+
+  .myWork{
+    font-family: 'Tomorrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    width: auto;
+    letter-spacing: 6px;
+    line-height: 40px;
+    position: relative;
+  }
+
+  div .pageTitles{
+   clear: both;
+   position: relative;
+   font-family: 'Titillium Web', sans-serif;
+   font-size:130px;
+   line-height:100px;
+   margin-top: 25px;
+   padding-top:0px;
+   padding-bottom:20px;
+   padding-left: 30px;
+  }
+  .grid1{
+    display: grid;
+    padding-left: 60px;
+    grid-template-columns:150px 150px 150px 150px ;
+  }
+  .list{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+  }
+  .header-nav{
+    padding: 8px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-header{
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 5px 5px;
+  }
+  div a {
+    color: white;
+    padding: 9px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  div a:hover {
+    background-color: #111;
+    font-size: 20px;
+  }
+
+
+
+  #middle{
+    margin:60px;
+
+  }
+
+  .myFace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+
+  }
+    h3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 27px;
+      text-transform: capitalize;
+      margin: 60px;
+      margin-bottom: 0px;
+    }
+
+    h4{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      font-size:15px;
+    }
+
+    h5{
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      align-items: center;
+      margin-top: 5px;
+      font-size:18px;
+    }
+
+    p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: justify;
+      padding-left: 260px;
+      padding-right: 260px;
+    }
+
+    p1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      text-justify: inter-word;
+    }
+
+    .grid2{
+      clear: left;
+      display: grid;
+      grid-template-columns:1fr 1fr;
+      padding-top: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    div2{
+      margin-bottom: 30px;
+
+    }
+
+    img{
+      width: 45%;
+      z-index: -1;
+      padding-left: 57%;
+      position: absolute;
+      clear: both;
+      float: right;
+    }
+    /**div i:hover {
+      width: 400px;
+    }
