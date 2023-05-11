@@ -1,8 +1,8 @@
 body{
   background-color: rgba(35, 35, 35, 1);
   color:white;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 5%;
+  padding-left: 5%;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -42,12 +42,39 @@ body{
  display:inline-block;
  position: relative;
  font-family: 'Titillium Web', sans-serif;
- font-size:230px;
- line-height:170px;
+ font-size:200px;
+ line-height:150px;
  margin:0px;
  padding-top:0px;
- padding-bottom:20px;
+ padding-bottom:10%;
 
+}
+
+.heropic{
+  position: relative;
+  width: 100%;
+}
+
+.heropic img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    clip: rect(0, auto, auto, 0); /* Clip the image to the size of the container */
+    width: 55%;
+    z-index: -1;
+    clear: both;
+    float: right;
+  }
+
+  #qeeckaction{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    clear:both;
+
+  }
 
 
  /*****************Large devices*************/

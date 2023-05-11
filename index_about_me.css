@@ -120,7 +120,7 @@ body{
       align-items: center;
       text-transform: uppercase;
       margin-bottom: 5px;
-      font-size:15px;
+      font-size:14px;
     }
 
     h5{
@@ -128,7 +128,7 @@ body{
       justify-content: center;
       text-transform: uppercase;
       align-items: center;
-      margin-top: 5px;
+      padding: 5px;
       font-size:18px;
     }
 
@@ -147,6 +147,9 @@ body{
       align-items: center;
       text-align: center;
       text-justify: inter-word;
+      font-size:16px;
+      padding-top: 10px;
+      padding-bottom: 25px;
     }
 
     .grid2{
@@ -163,14 +166,43 @@ body{
 
     }
 
-    img{
-      width: 45%;
+    .cropped {
+    position: relative;
+    width: 100%;
+  }
+
+    .cropped img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      clip: rect(0, auto, auto, 0); /* Clip the image to the size of the container */
+      max-width: 35% !important;
+      height: auto !important;
       z-index: -1;
       padding-left: 57%;
-      position: absolute;
       clear: both;
       float: right;
+
     }
+    .hinterimg{
+      margin-top: 20%;
+      margin-bottom: 20%;
+      position: relative; /* Enable flexbox layout */
+      justify-content: center; /* Horizontally center child elements */
+      align-items: center; /* Vertically center child elements */
+    }
+
+
+    .hinterimg img{
+      max-width: 40% !important;
+      height: auto !important;
+      z-index: -1;
+      position: absolute;
+      top: 100%;
+      left:10%;
+      transform: translate(-50%, -50%);
+      clear: both;
+      }
     /**div i:hover {
       width: 400px;
     }

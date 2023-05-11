@@ -1,5 +1,7 @@
 
+
 #middle{
+  padding-top: 150%;
   padding: 30px;
   margin-bottom: 60px;
 }
@@ -20,11 +22,13 @@ margin-bottom:0px;
   clear:both;
   float: right;
   text-align: justify;
-  margin-bottom: 60px;
+
 }
 
 #navigation{
   position: relative;
+  padding-top:5%;
+  padding-bottom:10%;
   margin-right: auto;
   margin-left: auto;
   padding-left: 6px;
@@ -32,6 +36,7 @@ margin-bottom:0px;
   height: auto;
   clear:both;
 }
+
 
 p2{
   font-family: 'Tomorrow', sans-serif;
@@ -47,6 +52,16 @@ p2{
 .grid{
   display: grid;
   grid-template-columns:150px 150px 150px 150px ;
+  display: flex;
+  justify-content: center;
+
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns:400px 400px 400px ;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -118,3 +133,9 @@ div a {
 .navbar-header{
 
 }
+
+#canvas-container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+  }
