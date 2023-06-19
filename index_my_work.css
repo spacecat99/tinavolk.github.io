@@ -24,7 +24,7 @@ body{
 
 
 .heropic img{
-  max-width: 60% !important;
+  max-width: 50% !important;
   height: auto !important;
   z-index: -1;
   position: absolute;
