@@ -1,0 +1,46 @@
+body{
+cursor: url("data:image/svg+xml,%3Csvg height='6' width='6' viewBox='0 0 8 8' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='4' cy='4' fill='%23eee' r='4'/%3E%3C/svg%3E") 3 3, auto;
+}
+
+
+.stroke-only {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: 600ms transform cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.transform-center-center {
+  transform-origin: center center;
+}
+a.link:hover .stroke-only {
+  stroke: #b55400;
+}
+a.link:hover .move-up {
+  transform: translateY(-16px);
+}
+a.link:hover .move-right {
+  transform: translateX(10px);
+}
+a.link:hover .move-down {
+  transform: translateY(16px);
+}
+a.link:hover .move-left {
+  transform: translateX(-10px);
+}
+a.link:hover .move-up-little {
+  transform: translateY(-4px);
+}
+a.link:hover .move-up-medium {
+  transform: translateY(-6px);
+}
+.svg-search {
+  transform-origin: 26px 26px;
+}
+a.link:hover .turn-90 {
+  transform: rotate(90deg);
+}
+a.link:hover .turn-15 {
+  transform: rotate(15deg);
+}

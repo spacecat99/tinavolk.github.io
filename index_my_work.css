@@ -1,0 +1,366 @@
+
+body{
+  background-color: rgba(35, 35, 35, 1);
+  color:white;
+  padding-right: 30px;
+
+  padding-left: 30px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#navigation2{
+  padding-top: 70px;
+
+
+}
+
+.heropic{
+  margin-top: 10%;
+  position: relative; /* Enable flexbox layout */
+  justify-content: right; /* Horizontally center child elements */
+  align-items: right; /* Vertically center child elements */
+}
+
+
+.heropic img{
+  max-width: 50% !important;
+  height: auto !important;
+  z-index: -1;
+  position: absolute;
+  top: 20%;
+  left:10%;
+  transform: translate(0%, %);
+  clear: both;
+  }
+
+
+
+.heropic2 img{
+  z-index: -1;
+  position: absolute;
+  clear: both;
+  opacity: 20%;
+}
+
+.container{
+  position: relative;
+  clear: both;
+}
+
+.abschnitt{
+  margin-bottom: 60px;
+
+}
+.abschnitt a{
+  display: block;
+  text-align: left;
+
+}
+.pic{
+  position: relative;
+  display: block;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+  #top{
+    padding: 30px;
+    margin: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .myWork{
+    font-family: 'Tomorrow', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 60px;
+    width: auto;
+    letter-spacing: 6px;
+    line-height: 40px;
+    position: relative;
+  }
+  .myWork2{
+    font-family: 'Tomorrow', sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 60px;
+    width: auto;
+    letter-spacing: 6px;
+    line-height: 40px;
+    position: relative;
+  }
+
+  .myWork3{
+    font-family: 'Tomorrow', sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 60px;
+    width: auto;
+    letter-spacing: 6px;
+    line-height: 40px;
+    position: relative;
+  }
+
+  div .pageTitles{
+   clear: both;
+   font-family: 'Titillium Web', sans-serif;
+   font-size:130px;
+   line-height:100px;
+   margin-top: 25px;
+   padding-top:0px;
+   padding-bottom:20px;
+   padding-left: 30px;
+  }
+
+  div .pageTitles2{
+   clear: both;
+   font-family: 'Titillium Web', sans-serif;
+   text-align: right;
+   font-size:100px;
+   line-height:100px;
+   margin-top: 25px;
+   padding-top:0px;
+   padding-bottom:20px;
+   padding-right: 60px;
+  }
+
+
+  .grid1{
+    clear: left;
+    display: grid;
+    padding-left: 60px;
+    grid-template-columns:150px 150px 150px 150px ;
+  }
+  .list{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+  }
+  .header-nav{
+    padding: 8px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-header{
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 5px 5px;
+  }
+  div a {
+    color: white;
+    padding: 9px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* Change the link color to #111 (black) on hover */
+  div a:hover {
+    background-color: #111;
+  }
+
+  #middle{
+    position: relative;
+    padding-top: 250px;
+    padding: 30px;
+    margin: 20px;
+    height: 100%;
+  }
+
+  #middle2{
+    position: relative;
+    padding-top: 200px;
+    padding: 20%;
+    margin: 20px;
+    height: 100%;
+  }
+    h1{
+    padding-top: 4%;
+    padding-bottom:
+    }
+
+    h3, h5{
+    position: relative;
+    clear: both;
+    width:30%;
+    float: right;
+    font-size:25px;
+    text-transform: capitalize;
+    margin-bottom:0px;
+    }
+
+    h4{
+    width:40%;
+    clear: both;
+    font-size:25px;
+    text-transform: capitalize;
+    margin-bottom:0px;
+    }
+
+
+    p{
+      position:relative;
+      width:30%;
+      clear:both;
+      float: right;
+      text-align: justify;
+      margin-bottom: 40px;
+    }
+
+    p2{
+      position:relative;
+      width:30%;
+      text-align: justify;
+      padding-bottom: 5%;
+    }
+
+    .pLeft{
+      position:relative;
+      width:40%;
+      clear:both;
+      float: left;
+      text-align: justify;
+      margin-bottom: 60px;
+    }
+
+    .grid2{
+      clear: left;
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr;
+    }
+    .grid3{
+      display: grid;
+      padding-left: 60px;
+      grid-template-columns:1fr 1fr;
+    }
+    .grid4{
+      display: grid;
+      grid-template-columns:350px 350px ;
+      justify-content: flex-start;
+      padding-bottom: 20px;
+    }
+     .grid4 i{
+       padding-left: 0px;
+       float: left;
+     }
+
+     .grid5{
+       align-items: center;
+       justify-content: center;
+       display: grid;
+       grid-template-columns:1.5fr 1.5fr 1.5fr;
+       margin-left: 100px;
+       margin-right: 100px;
+     }
+
+     .grid6{
+       align-items: center;
+       justify-content: center;
+       display: grid;
+       margin-left: 100px;
+       margin-right: 100px;
+     }
+
+    .steps{
+      padding-top: :5%;
+      padding-bottom: 8%;
+    }
+
+
+     .linie_rechts {
+     position: relative;
+     clear: both;
+     width:30%;
+     float: right;
+     font-size:16px;
+     text-transform: capitalize;
+     margin-bottom:0px;
+     }
+
+    .containerButton{
+      padding: 5%;
+      padding-left: 0;
+
+
+    }
+    .color{
+      position: relative;
+      clear: left;
+      display: block;
+      padding: 10px;
+      border: none;
+      border-radius: 5%;
+      width: 12px;
+    }
+
+     .pillbutton{
+       display: block;
+       padding: 10px;
+       background-color: rgba(236, 109, 50, 1);
+       color: rgba(35, 35, 35, 1);
+       border: none;
+       border-radius: 20px;
+       padding: 10px 20px;
+       font-size: 16px;
+       cursor: pointer;
+       text-align: center;
+       font-size: 16px;
+       text-decoration: none;
+       transition: background-color 0.3s;
+       width: 30%;
+     }
+
+     .pillbutton a:hover {
+       background-color: rgba(243, 162, 124);
+     }
+
+     .pillbutton span {
+       display: block;
+       pointer-events: none;
+     }
+
+    .containerFotos{
+      padding-top: 200px;
+    }
+
+
+
+    /**div i:hover {
+      width: 400px;
+    }
