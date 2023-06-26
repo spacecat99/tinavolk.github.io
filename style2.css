@@ -139,3 +139,17 @@ div a {
     height: 300px;
     overflow: hidden;
   }
+
+
+
+  .pic {
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Horizontally center child elements */
+    align-items: center; /* Vertically center child elements */
+  }
+  
+  .pic img {
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    max-height: 100%;
+  }
+  

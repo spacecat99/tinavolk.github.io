@@ -359,7 +359,9 @@ a {
       padding-top: 200px;
     }
 
-
+    .Projecttitle{
+      padding-top: 10px;
+    }
 
     /**div i:hover {
       width: 400px;
