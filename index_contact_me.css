@@ -137,21 +137,21 @@ body{
       justify-content: center;
       align-items: center;
       text-align: justify;
-      padding-left: 260px;
-      padding-right: 260px;
+      padding-left: auto;
+      padding-right: auto;
+      padding-top:5% ;
     }
 
-   
     p1{
       display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+      justify-content: left;
+      align-items: left;
+      text-align: left;
       text-justify: inter-word;
-      font-size:16px;
-      padding-top: 10px;
-      padding-bottom: 25px;
-    }
+      font-size: 17px;
+      row-gap:3px;
+      padding-top: 5%;
+      }
 
     .grid2{
       clear: left;

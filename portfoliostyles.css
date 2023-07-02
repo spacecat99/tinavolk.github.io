@@ -76,6 +76,33 @@ body{
 
   }
 
+  .pillbutton{
+    display: block;
+    padding: 10px;
+    background-color: rgba(236, 109, 50, 1);
+    color: rgba(35, 35, 35, 1);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 30%;
+  }
+
+  .pillbutton a:hover {
+    background-color: rgba(243, 162, 124);
+  }
+
+  .pillbutton span {
+    display: block;
+    pointer-events: none;
+  }
+
+ 
 
  /*****************Large devices*************/
  @media (min-width: 992px){
