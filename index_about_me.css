@@ -110,7 +110,7 @@ body{
       align-items: center;
       font-size: 27px;
       text-transform: capitalize;
-      margin: 60px;
+      padding-top: 8%;
       margin-bottom: 0px;
     }
 
@@ -139,6 +139,7 @@ body{
       text-align: justify;
       padding-left: 260px;
       padding-right: 260px;
+      
     }
 
    

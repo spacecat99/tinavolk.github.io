@@ -65,29 +65,41 @@
         <img src="Fotos\01241.png" alt="Aperitivo" width="400px"></i>
         <img src="Fotos\0132.png" alt="Aperitivo" width="300px"></i>
         <img src="Fotos\0008.png" alt="Aperitivo" width="350px"></i>
-      </div>
+</div>
 
-        <div>
-          <iframe height="315"
-          src="https://www.behance.net/gallery/147182423/ForestWarrior">
-          </iframe>
-        </div>
+      <div class="containervideo">
+         <video src="Fotos\1-forestwarrior-1080.mp4"  width="50%" type="video/mp4" loop class="clip"></video> 
+        
+      </div>
       
 <div class="Projecttitle">
 <h2> My Floating Room </h2>
 </div>
 
-      <div class="grid5">
+      <div class="grid7">
         <img src="Fotos\room002.png"  width="400px"></i>
-        <img src="Fotos\room001.png"  width="400px"></i>
-        <img src="Fotos\room04.png"  width="400px"></i>
+
+        <div class="containervideo">
+          <video src="Fotos\0179-0233.mp4"  width="100%" type="video/mp4" loop class="clip"></video> 
+         </div>
+
       </div>
 
-      <div>
-        <iframe height="315"
-        src="https://www.behance.net/gallery/147182423/ForestWarrior">
-        </iframe>
+      <div class="grid7">
+        <img src="Fotos\room04.png"  width="400px"></i>
+        <img src="Fotos\room001.png"  width="400px"></i>
       </div>
+
+      <div class="Projecttitle">
+        <h2> Grass m3 </h2>
+        </div>
+        <div class="grid5">
+          <img src="Fotos\grasscube1.png" alt="Aperitivo" width="400px"></i>
+          <img src="Fotos\grasscube2.png" alt="Aperitivo" width="300px"></i>
+          <img src="Fotos\0008.png" alt="Aperitivo" width="350px"></i>
+        </div>
+        
+      
 
 <div class="Projecttitle">
 <h2> It's Supposed to be Me </h2>
@@ -96,7 +108,7 @@
       <div class="grid5">
         <img src="Fotos\mymodel1.png"  width="300px"></i>
         <img src="Fotos\facemodel2.png"  width="400px"></i>
-        <img src="Fotos\room002.png"  width="400px"></i>
+        <img src="Fotos\Nftpros_I_will_design_unique_nft_art_and_generate_collection_with_metadata_for__70_on_fiverr_com-removebg-preview.png"  width="400px"></i>
       </div>
 
 
@@ -124,5 +136,18 @@
       </div>
 
       
-    
+    <script>
+      const clip = document.querySelectorAll(".clip");
+      for (let i=0; i<clip.length; i++){
+        clip[i].addEventListener("mouseenter",
+        function(e){
+          clip[i].play()
+        })
+        clip[i].addEventListener("mouseout",
+        function(e){
+          clip[i].pause()
+        })
+      }
+
+    </script>
     </body>

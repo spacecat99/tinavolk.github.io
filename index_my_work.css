@@ -296,6 +296,23 @@ a {
        margin-left: 100px;
        margin-right: 100px;
      }
+     .grid7{
+      align-items: center;
+      justify-content: center;
+      display: grid;
+      grid-template-columns:1.5fr 1.5fr ;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    .grid8{
+      display: grid;
+      grid-template-columns: 1.3fr 1.7fr;
+      justify-content: center;
+      padding-bottom: 20px;
+      align-items: center;
+      overflow-y: auto;
+      
+    }
 
     .steps{
       padding-top: :5%;
@@ -361,6 +378,24 @@ a {
 
     .Projecttitle{
       padding-top: 10px;
+    }
+
+    .containervideo{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .cropped{
+      position: flex;
+      clip: rect(0, auto, auto, 0); /* Clip the image to the size of the container */
+      max-width: 80% !important;
+      height: auto !important;
+      z-index: +1;
+      clear: both;
+      float: right;
+
     }
 
     /**div i:hover {
