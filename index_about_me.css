@@ -229,8 +229,7 @@ body{
   max-height: 90%;
 }
 
-#pdfObject,
-embed {
+#pdfObject embed {
   width: 100%;
   height: 100%;
 }

@@ -161,3 +161,23 @@ div a {
     max-height: 100%;
   }
   
+
+  .cropped{
+    position: flex;
+    clip: rect(0, auto, auto, 0); /* Clip the image to the size of the container */
+    max-width: 80% !important;
+    height: auto !important;
+    z-index: -1;
+    clear: both;
+    float: right;
+
+  }
+  .grid8{
+    display: grid;
+    grid-template-columns: 1.3fr 1.7fr;
+    justify-content: center;
+    padding-bottom: 20px;
+    align-items: center;
+    overflow-y: auto;
+    
+  }
